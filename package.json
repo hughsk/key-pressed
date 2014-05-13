@@ -1,6 +1,6 @@
 {
   "name": "key-pressed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple browserify module for telling whether or not a given key has been pressed down.",
   "main": "index.js",
   "scripts": {
