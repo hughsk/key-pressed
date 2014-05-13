@@ -1,0 +1,33 @@
+{
+  "name": "key-pressed",
+  "version": "0.0.0",
+  "description": "A simple [browserify](http://browserify.org/) module for telling whether or not a given key has been pressed down.",
+  "main": "index.js",
+  "scripts": {
+    "test": "beefy test.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/key-pressed.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughsk/key-pressed/issues"
+  },
+  "homepage": "https://github.com/hughsk/key-pressed",
+  "dependencies": {
+    "vkey": "0.0.3"
+  },
+  "devDependencies": {
+    "beefy": "^1.1.0"
+  },
+  "keywords": [
+    "key",
+    "pressed",
+    "keyboard",
+    "character",
+    "detect",
+    "down"
+  ]
+}
