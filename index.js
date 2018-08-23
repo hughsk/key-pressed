@@ -31,3 +31,11 @@ function keyup(e) {
 function keydown(e) {
   down[keys[e.keyCode]] = true
 }
+
+function dispose() {
+  if (process.browser) {
+    window.removeEventListener('keydown', keydown, false)
+    window.removeEventListener('keyup', keyup, false)
+    window.removeEventListener('blur', reset, false)
+  }
+}
